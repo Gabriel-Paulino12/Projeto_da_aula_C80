@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Lista de convidados</title>
+        <link rel="stylesheet" type="text/css" href="Lista.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h3 style="margin-top: 20px; margin-bottom: 20px; ">Lista de Convidados</h3>
+            
+                <span></span>
+                <input type="text" placeholder="Insira o nome" id="nome">
+                <button onclick="EnviarNomes()" id="BotaodeEnviar">Enviar</button>
+                <div id="Mostrarnome"></div>
+                <hr>
+                    <h3 style="margin-top: 20px; margin-bottom: 20px; ">Lista de Convidados</h3>
+                <button onclick="mostrarnomes()" id="BotaodeMostrar">
+                    Mostrar
+                </button>
+                <div id="nomesmostrados"></div>
+                <hr>
+            <button onclick="submit()" id="BotaodeOrdenar">
+                Ordenar
+            </button>
+            <div id="Ordenarnomes"></div>
+            <br>
+            <br>
+            <div id="displayNameWithCommas">
+            </div>
+            <div id="displayNameWithoutCommas">
+            </div>
+            <hr>
+            <span></span>
+                <input type="text" placeholder="Pesquisar Nome" id="pesquisa">
+                <button onclick="search()" id="pesquisar">Pesquisar</button>
+        </center>
+    </body>
+</html>
